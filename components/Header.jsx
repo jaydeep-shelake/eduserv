@@ -2,7 +2,7 @@
 const Header = () => {
   return (
     <div className='flex h-[80px] items-center justify-between fixed top-0 left-0 p-[20px] w-full bg-ed-sec-blue'>
-     <div className='text-black'>Edu<span className='text-ed-blue'>Cate</span></div>
+     <div className='text-black'>Edu<span className='text-ed-blue'>Serve</span></div>
      <div className='flex items-center justify-between text-black  font-semibold'>
       <div  className='mx-[20px]'>Home</div>
       <div  className='mx-[20px]'>Courses</div>
