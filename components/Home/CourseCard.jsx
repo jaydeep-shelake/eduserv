@@ -2,9 +2,9 @@ import {AiOutlineUser,AiOutlineStar,AiOutlineDollarCircle} from "react-icons/ai"
 
 const CourseCard = () => {
   return (
-    <div className="w-[250px] h-[300px] bg-white rounded-[12px] my-[20px] mx-[10px] p-[10px]">
-        <div className="bg-[#7a88fe] flex items-center justify-center w-full h-[120px] rounded-[12px]">
-
+    <div className="w-[250px] h-[300px] bg-white rounded-[12px] my-[20px] mx-[10px] p-[10px] ">
+        <div className="bg-[#7a88fe] flex items-center justify-center w-full h-[145px] rounded-[12px]">
+          <img className="h-full w-[70%]" src="https://res.cloudinary.com/qtalk/image/upload/v1686676794/SuperLeaves/4115337-removebg-preview_zdnl6m.png" alt="" />
         </div>
         <div className="mt-[20px]">
         <div className="bg-[#e9edf9] p-[4px] rounded-[4px] text-ed-blue max-w-[70px] mt-[10px]">

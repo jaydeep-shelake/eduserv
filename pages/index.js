@@ -6,6 +6,7 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Mission from '@/components/Mission'
+import OneOnOne from '@/components/OneOnOne'
 import Testomonials from '@/components/Testomonials'
 
 const Home = () => {
@@ -25,6 +26,8 @@ const Home = () => {
     <Mission/>
 
     <Choose/>
+
+   <OneOnOne/>
 
     <Testomonials/>
 
