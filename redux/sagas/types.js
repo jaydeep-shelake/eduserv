@@ -1,0 +1,3 @@
+export const SIGNIN_SUCESS="SIGNIN_SUCESS"
+export const SIGNUP_SUCESS="SIGNUP_SUCESS"
+export const SIGN_OUT="SIGN_OUT"

@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.1.1",
+    "@reduxjs/toolkit": "^1.9.5",
     "autoprefixer": "10.4.14",
+    "firebase": "^9.22.2",
     "gsap": "^3.11.5",
     "next": "13.4.4",
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.45.0",
     "react-icons": "^4.9.0",
-    "tailwindcss": "3.3.2"
+    "react-redux": "^8.1.0",
+    "redux-saga": "^1.2.3",
+    "tailwindcss": "3.3.2",
+    "yup": "^1.2.0"
   }
 }

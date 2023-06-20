@@ -16,7 +16,8 @@ module.exports = {
       colors:{
         'ed-blue':'#4540e1',
         'ed-sec-blue':'#e7f0ff',
-        'ed-ornage':'#faa24c'
+        'ed-ornage':'#faa24c',
+        'ed-gray':"#605D62"
       }
     },
   },
