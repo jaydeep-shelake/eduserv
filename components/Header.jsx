@@ -12,13 +12,13 @@ const Header = () => {
     router.push('/login')
   }
   return (
-    <div className='flex h-[80px] items-center justify-between fixed top-0 left-0 p-[20px] w-full bg-ed-sec-blue'>
+    <div className='flex h-[80px] z-10 items-center justify-between fixed top-0 left-0 p-[20px] w-full bg-ed-sec-blue'>
      <div className='text-black'>Edu<span className='text-ed-blue'>Serv</span></div>
      <div className='flex items-center justify-between text-black  font-semibold'>
       <div  className='mx-[20px]'>Home</div>
       <div  className='mx-[20px]'>Courses</div>
       <div  className='mx-[20px]'>Tets</div>
-      <div  className='mx-[20px]'>About us</div>
+      <Link href="/about"><div  className='mx-[20px]'>About us</div></Link>
      </div>
      {
      user?(
