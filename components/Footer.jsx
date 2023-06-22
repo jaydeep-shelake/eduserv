@@ -1,3 +1,4 @@
+import Link from "next/link"
 import {FaLinkedinIn} from "react-icons/fa"
 const Footer = () => {
   return (
@@ -38,7 +39,7 @@ const Footer = () => {
       </div>
      <div className="text-black ml-[60px] flex flex-col">
         <p className="text-[18px] font-semibold">Support</p>
-        <a>Contact</a>
+        <Link href="/contact">Contact</Link>
         <a>Privacy Policy</a>
         <a>Terms & Conditions</a>
       </div>
