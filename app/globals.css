@@ -17,6 +17,9 @@ font-family: 'Poppins', sans-serif;
   .primary-box-shadow{
     box-shadow: 2px 2px 10px rgba(92,91,91,.345);
   }
+  .contact-input{
+    @apply h-[45px] outline-none p-[8px] bg-ed-sec-blue rounded-[6px] mt-[10px]
+  }
 }
 
 

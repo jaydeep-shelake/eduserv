@@ -1,6 +1,6 @@
 import Image from "next/image"
 import girlmodel from "../assets/images/girlmodel.png"
-const Mission = () => {
+const Mission = ({img}) => {
   return (
     <div className="w-[70%] mx-auto mt-[200px] relative">
       <div className="w-full bg-ed-blue rounded-[20px] p-[30px] flex items-center justify-between h-[230px]">
